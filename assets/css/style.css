@@ -1,0 +1,57 @@
+body {
+	background-color: rgb(0, 0, 0);
+	font-family: "Bebas Neue", cursive;
+}
+.nav-img {
+	width: 40px;
+	margin-right: 10px;
+}
+
+hr {
+	padding: 1px;
+	background-color: rgb(17, 154, 218);
+}
+
+.img-qs {
+	width: 25px;
+	padding: 2px;
+}
+
+.card {
+	box-shadow: 5px 2.5px 2.5px rgb(199, 198, 198);
+}
+
+.card-body {
+	background-color: rgb(141, 140, 140);
+}
+
+.card-title {
+	color: rgb(0, 0, 0);
+}
+
+.texto-qs {
+	color: rgb(216, 216, 216);
+}
+
+.list-group {
+	background-color: rgb(141, 140, 140);
+}
+
+.btn:hover {
+	box-shadow: inset 100px 0 0 0 rgb(0, 0, 0);
+}
+.fab {
+	font-size: 40px;
+	padding-left: 5px;
+	margin-top: 5px;
+}
+
+.linkpage {
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
+}
+
+.nav-link {
+	color: white;
+}

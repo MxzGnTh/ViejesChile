@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/viajes.png" type="image/x-icon">
+    <title>Viajes Chile</title>
+    <!-- Fontawasome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- Font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="assets/js/app.js"></script>
+
+    <!-- Normalize -->
+    <!-- <link rel="stylesheet" href="assets/css/normalize.css"> -->
+
+    <!-- css bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!--MI CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img class="nav-img" src="assets/img/viajes.svg" alt="icono viajes"
+                    height="40px">Viajes Chile</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" id="nav1" href="#inicio">Inicio</a>
+                    <a class="nav-link active" href="#quienessomos">Quienes somos</a>
+                    <a class="nav-link active" href="#destacados">Destacados</a>
+                    <a class="nav-link active" href="#contacto">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- carroucel  -->
+    <header>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="container-fluid">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="Foto1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="Foto2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="Foto3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Quienes Somos    -->
+    <section class="container-fluid" id="quienessomos">
+        <p class="h4 text-center mt-5 text-light ">¿Quienes Somos?</p>
+        <hr>
+        <article class="m-5 d-none d-md-block">
+            <div class="row ">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="contenedor-img bg-info text-center" id="iconobg1">
+                        <!-- generar boton para esconder contenido -->
+                        <img src="assets/img/plane-solid.svg" class="img-qs" alt="">
+                    </div>
+                    <p class="texto-qs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat laborum
+                        molestiae harum hic perferendis consequuntur, repudiandae eligendi beatae dolorum iste saepe
+                        perspiciatis ducimus distinctio aspernatur. Veniam aspernatur nostrum adipisci excepturi modi
+                        dolorem numquam atque magni aut. Dolores, tenetur? Omnis eligendi, quibusdam, quam modi pariatur
+                        error voluptates voluptas soluta cumque magni sequi ducimus natus quo itaque praesentium
+                        laboriosam, nam at explicabo ratione consequatur aspernatur mollitia? Saepe ut incidunt sint
+                        tenetur delectus porro sed, nemo rem placeat quae molestias modi hic ipsum qui, praesentium,
+                        labore dolor iure! Ab magni optio impedit odio! Nobis optio labore explicabo sit, voluptates
+                        fugit quasi numquam obcaecati similique nulla facilis et voluptatum doloribus, cupiditate
+                        asperiores possimus. Libero nam, quos tempore quae fuga accusamus. Molestias dignissimos
+                        reiciendis unde!</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <p class="texto-qs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, quis dolore
+                        nesciunt voluptas laudantium perspiciatis sequi molestias quisquam repellat dolores, veniam
+                        ullam? Natus soluta ad error cumque provident aliquid repellendus sint. Veniam molestias, sit
+                        quod cum ab reiciendis doloribus nihil tempore doloremque fugit. Repellat nam atque ad tempore
+                        est illum id qui totam cum, eveniet amet adipisci animi culpa corrupti nemo ut perferendis
+                        itaque cumque autem, quam distinctio odit quisquam. Harum sed commodi velit dolor, odio alias
+                        enim atque laborum quas, modi rem asperiores neque. Earum recusandae ut deserunt sit odio nam
+                        hic suscipit, excepturi voluptas sapiente! Omnis aut impedit in placeat quibusdam eos possimus
+                        asperiores repellat ab assumenda velit commodi natus sit molestiae aspernatur ratione, ducimus
+                        similique ut non.</p>
+                    <div class="contenedor-img bg-info text-center" id="iconobg2">
+                        <!-- generar boton para esconder contenido -->
+                        <img src="assets/img/mountain-solid.svg" class="img-qs" alt="">
+                    </div>
+
+
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="contenedor-img bg-info text-center" id="iconobg3">
+                        <!-- generar boton para esconder contenido -->
+
+                        <img src="assets/img/route-solid.svg" class="img-qs" alt="">
+                    </div>
+                    <p class="texto-qs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam nesciunt
+                        molestiae soluta
+                        quisquam quae culpa animi aliquam dolor excepturi, fugiat pariatur, ullam vitae rem nobis
+                        praesentium facere nulla dolores explicabo provident! Provident est quae esse explicabo
+                        necessitatibus maiores impedit unde, quisquam, non aliquam libero vitae architecto voluptatum
+                        blanditiis, eveniet iusto quas. Temporibus labore porro odio id nesciunt pariatur alias. Magni
+                        ipsam nihil enim possimus consequuntur provident ipsum obcaecati aliquid ullam magnam? Incidunt
+                        facilis fugiat deleniti vel exercitationem. Culpa, exercitationem dolores.</p>
+                </div>
+            </div>
+        </article>
+    </section>
+
+
+    <!-- destacados -->
+    <section class="container-fluid">
+        <p class="h4 text-center mt-5 text-light" id="destacados">Destacados</p>
+        <hr>
+        <div class="mt-5">
+            <div class="row">
+                <article class="col-12 col-sm-12 col-md-6 col-xl-3 col-xxl-3 ">
+                    <div class="card mb-4">
+                        <img src="assets/img/card1.jpg" class="imgcarta p-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
+                                nam!</h5>
+                            <p class="card-text1" id="disabletexto1">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Perferendis
+                                reprehenderit modi sapiente cum maxime dolores inventore magni! Sed laboriosam sequi
+                                dolorum rerum distinctio minus, quidem libero reprehenderit omnis porro rem vero maiores
+                                aut, reiciendis explicabo praesentium sunt eaque nihil non? Vitae dolorum non quos
+                                aliquid iusto dolores repudiandae quibusdam maiores, aperiam voluptatem culpa id
+                                exercitationem ipsum et eum. Quis laboriosam dolor repellat consectetur doloribus dicta
+                                praesentium harum doloremque inventore. Expedita nostrum, ex debitis aliquid voluptas
+                                repudiandae cum earum amet natus.</p>
+                            <div class="mb-3">
+                                <button class="btn btn-outline-dark" id="destacados1">Leer más </button>
+                                <button type="button" class="btn btn-dark" data-bs-toggle="tooltip" data-bs-html="true"
+                                    title="visita esta pagina para mas informacion">
+                                    <a class="linkpage"
+                                        href="https://lastorres.com/torres-del-paine/parque-nacional-torres-del-paine/?gclid=CjwKCAjwhuCKBhADEiwA1HegOc3PIZWec2WMCUp6565MtucvFVXEtVjexK4dCkVyYrEXYzJViiGerhoCGWQQAvD_BwE">
+                                        Link </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-12 col-sm-12 col-md-6 col-xl-3 ">
+                    <div class="card mb-3">
+                        <img src="assets/img/card2.jpg" class="imgcarta" alt="...">
+                        <div class="card-body ">
+                            <h5 class="card-title mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic,
+                                corrupti?</h5>
+                            <p class="card-text2" id="disabletexto2">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Quas aliquid
+                                vitae pariatur ut cum, iure temporibus, fugiat explicabo asperiores repellendus atque
+                                vel placeat sit dolore non repudiandae eos quasi laudantium assumenda suscipit officiis
+                                ex nisi. Placeat accusantium a accusamus ipsam aliquid voluptates, reprehenderit velit,
+                                repudiandae vel libero, minus atque enim. Accusantium nulla veniam optio ad laudantium,
+                                distinctio recusandae aspernatur repellendus illo id hic voluptate minima similique
+                                ratione dicta .</p>
+                            <div class="mb-3">
+                                <button class="btn btn-outline-dark" id="destacados2">Leer más </button>
+                                <button type="button" class="btn btn-dark" data-bs-toggle="tooltip" data-bs-html="true"
+                                    title="visita esta pagina para mas informacion">
+                                    <a class="linkpage" href="https://www.bosqueantiguovaldiviano.cl/"> Link </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-12 col-sm-12 col-md-6 col-xl-3 ">
+                    <div class="card mb-3">
+                        <img src="assets/img/card3.jpg" class="imgcarta" alt="...">
+                        <div class="card-body ">
+                            <h5 class="card-title mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Corporis, odio.</h5>
+                            <p class="card-text3" id="disabletexto3">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit. Quidem tempore impedit sunt, repellat nulla illo non debitis excepturi natus earum
+                                quia? Soluta perferendis veritatis modi sit quasi voluptate praesentium ex. Repellendus
+                                rem repudiandae similique natus architecto quibusdam molestias est, accusantium
+                                excepturi reiciendis dolorem nihil alias, eos odit neque quod, vitae harum consectetur
+                                non. Corporis obcaecati ab iste! Praesentium cupiditate quod esse voluptate vitae modi
+                                architecto magnam inventore consequatur necessitatibus! Odit placeat animi vitae
+                                molestias voluptatibus iure deserunt vero inventore tempora, beatae officiis sint
+                                molestiae fuga illo nulla in, alias neque reiciendis ipsum. Voluptatum, sint maiores
+                                quae dolorum facilis cupiditate, autem animi est ipsam corrupti rerum ut hic molestias
+                                ducimus magnam enim officiis illum veniam qui repellendus incidunt sequi. Culpa, saepe?
+                            </p>
+                            <div class="mb-3">
+                                <button class="btn btn-outline-dark" id="destacados3">Leer más </button>
+                                <button type="button" class="btn btn-dark" data-bs-toggle="tooltip" data-bs-html="true"
+                                    title="visita esta pagina para mas informacion">
+                                    <a class="linkpage" href="https://www.bosqueantiguovaldiviano.cl/"> Link </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-12 col-sm-12 col-md-6 col-xl-3 ">
+                    <div class="card mb-3">
+                        <img src="assets/img/card4.jpg" class="imgcarta" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+                                natus?</h5>
+                            <p class="card-text4" id="disabletexto4">Lorem ipsum dolor sit amet consectetur, adipisicing
+                                elit. Reprehenderit eius aperiam dolor assumenda. Molestiae eveniet maxime facere a
+                                fugiat modi, iste quasi eum consequuntur tempore consectetur, animi assumenda
+                                cupiditate? At officiis corporis fugit deleniti delectus nihil quidem quod quisquam
+                                tempora, consequatur veniam labore esse tempore, possimus cupiditate libero? Praesentium
+                                molestiae tempore quidem. Consectetur quo placeat perspiciatis provident adipisci
+                                ducimus consequatur aut, beatae tempora temporibus! Odio repudiandae hic ut blanditiis
+                                aut debitis placeat velit nemo ipsam laboriosam cumque consequuntur quas totam, minus
+                                beatae iure harum perferendis adipisci excepturi eligendi. Facilis aliquam cupiditate
+                                deleniti rerum provident soluta, atque incidunt repellat illum commodi debitis, numquam
+                                eveniet consequuntur ipsam nulla et dolorum harum magnam? Culpa pariatur velit, ullam
+                                sed ad alias unde assumenda voluptatem!</p>
+                            <div class="mb-3">
+                                <button class="btn btn-outline-dark" id="destacados4" data-bs-toggle="popover"
+                                    data-bs-placement="hover">Leer más </button>
+                                <button type="button" class="btn btn-dark" data-bs-toggle="tooltip" data-bs-html="true"
+                                    title="visita esta pagina para mas informacion">
+                                    <a class="linkpage" href="https://www.bosqueantiguovaldiviano.cl/"> Link </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- Formulario -->
+    <section class="container-fluid " id="contacto">
+        <article>
+            <p class="h4 text-center p-2 mt-5 text-light">Contacto</p>
+            <hr>
+            <div class="p-5" data-tf-widget="ekuYGAxQ" style="width:100%;height:600px;"></div>
+            <script src="//embed.typeform.com/next/embed.js"></script>
+        </article>
+    </section>
+    <!-- barra viajes Chile footer -->
+    <footer class="container-fluid bg-info text-center">
+        <div class="container-iconos text-white">
+            <div class="row">
+                <div class="col">
+                    <h5 class="titulo-Ahora fs-1 fw-bold">Viajes Chile</h5>
+                </div>
+                <div class="col-sm-6">
+                    <div class="row">
+                        <div class="col">
+                            <!-- github -->
+                            <a class="linkpage" id="icono1"
+                                href="https://github.com/Darkos089/PruebaModulo1/tree/main"><i
+                                    class="fab fa-github-square"></i>
+                            </a>
+                            <!-- linkedin -->
+                            <a class="linkpage" id="icono2"
+                                href="https://github.com/Darkos089/PruebaModulo1/tree/main"><i
+                                    class="fab fa-linkedin"></i>
+                            </a>
+                            <!-- twitter -->
+                            <a class="linkpage" id="icono3"
+                                href="https://github.com/Darkos089/PruebaModulo1/tree/main"><i
+                                    class="fab fa-twitter-square"></i>
+                            </a>
+                            <!-- fecebook -->
+                            <a class="linkpage" id="icono4"
+                                href="https://github.com/Darkos089/PruebaModulo1/tree/main"><i
+                                    class="fab fa-facebook-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
